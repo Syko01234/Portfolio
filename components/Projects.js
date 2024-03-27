@@ -42,13 +42,13 @@ export default function Projects() {
         </div>
         <div className="w-[35%] ml-[5%] h-[90%]">
           <Image
-          src={pror}
-          alt='pror'
-          objectFit="contain"
-          style={{
-            width: "100%",
-            height: "100%",
-          }}
+            src={pror}
+            alt="pror"
+            objectFit="contain"
+            style={{
+              width: "100%",
+              height: "100%",
+            }}
           />
         </div>
       </div>

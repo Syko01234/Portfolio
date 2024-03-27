@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import AOS from "aos";
 import pto from "../public/image/about.png";
 
 export default function about() {

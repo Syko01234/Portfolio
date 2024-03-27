@@ -20,13 +20,27 @@ export default function contact() {
           />
         </div>
         <div className="w-[50%]">
-            <input className="bg-[#232732] w-[40%] h-[10%] rounded-[10px] mt-[15%]" type="text" placeholder="Name"/>
-            <br/>
-            <input className="bg-[#232732] w-[40%] h-[10%] rounded-[10px] mt-[5%]" type="email" placeholder="Email"/>
-            <br/>
-            <input className="bg-[#232732] w-[40%] h-[10%] rounded-[10px] mt-[5%]" type="text" placeholder="Message"/>
-            <br/>
-            <button className="mt-[5%] ml-[10%] w-[20%] bg-zinc-600 rounded-[10px]">Send</button>
+          <input
+            className="bg-[#232732] w-[40%] h-[10%] rounded-[10px] mt-[15%]"
+            type="text"
+            placeholder="Name"
+          />
+          <br />
+          <input
+            className="bg-[#232732] w-[40%] h-[10%] rounded-[10px] mt-[5%]"
+            type="email"
+            placeholder="Email"
+          />
+          <br />
+          <input
+            className="bg-[#232732] w-[40%] h-[10%] rounded-[10px] mt-[5%]"
+            type="text"
+            placeholder="Message"
+          />
+          <br />
+          <button className="mt-[5%] ml-[10%] w-[20%] bg-zinc-600 rounded-[10px]">
+            Send
+          </button>
         </div>
       </div>
     </div>

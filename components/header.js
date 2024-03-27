@@ -46,7 +46,7 @@ function Home() {
         </div>
         <div className="mt-[8%] ml-[3%]">
           <h1 className="text-[40px] ml-[2%] w-[20%]">Hey</h1>
-          <h1 className="text-[50px] ml-[2%] w-[21%] font-bold">I'm Ganbayr</h1>
+          <h1 className="text-[50px] ml-[2%] w-[21%] font-bold">I&apos;m Ganbayr</h1>
           <h1 className="text-[40px] ml-[2%]">
             <spam className="text-red-600">IT</spam> Engineer
           </h1>

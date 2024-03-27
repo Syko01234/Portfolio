@@ -18,6 +18,7 @@ function Home() {
             }}
           />
           <ul className="flex flex-row-reverse ml-[55%] gap-[50px]">
+<<<<<<< HEAD
             <a
               href=""
               className="text-[20px] mr-[5%] relative after:absolute after:content-[&rsquo;] after:bottom-[0] after:left-0 after:w-[0] after:h-[1px] after:duration-300 after:bg-white hover:after:w-[100%]"
@@ -41,6 +42,18 @@ function Home() {
               href=""
               className="text-[20px] relative after:absolute after:content-[&rsquo;] after:bottom-[0] after:left-0 after:w-[0] after:h-[1px] after:duration-300 after:bg-white hover:after:w-[100%]"
             >
+=======
+            <a href="" className="text-[20px] mr-[5%] relative after:absolute after:content-[&apos;] after:bottom-[0] after:left-0 after:w-[0] after:h-[1px] after:duration-300 after:bg-white hover:after:w-[100%]">
+              Contact
+            </a>
+            <a href="" className="text-[20px] relative after:absolute after:content-[&apos;] after:bottom-[0] after:left-0 after:w-[0] after:h-[1px] after:duration-300 after:bg-white hover:after:w-[100%]">
+              Projects
+            </a>
+            <a href="" className="text-[20px] relative after:absolute after:content-[&apos;] after:bottom-[0] after:left-0 after:w-[0] after:h-[1px] after:duration-300 after:bg-white hover:after:w-[100%]">
+              About
+            </a>
+            <a href="" className="text-[20px] relative after:absolute after:content-[&apos;] after:bottom-[0] after:left-0 after:w-[0] after:h-[1px] after:duration-300 after:bg-white hover:after:w-[100%]">
+>>>>>>> 2a70cecad697ea14a27e7699cc8df93e8a683d4c
               Certificate
             </a>
           </ul>

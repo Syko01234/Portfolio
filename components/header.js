@@ -18,42 +18,28 @@ function Home() {
             }}
           />
           <ul className="flex flex-row-reverse ml-[55%] gap-[50px]">
-<<<<<<< HEAD
             <a
               href=""
-              className="text-[20px] mr-[5%] relative after:absolute after:content-[&rsquo;] after:bottom-[0] after:left-0 after:w-[0] after:h-[1px] after:duration-300 after:bg-white hover:after:w-[100%]"
+              className="text-[20px] mr-[5%] relative after:absolute after:content-[&apos;] after:bottom-[0] after:left-0 after:w-[0] after:h-[1px] after:duration-300 after:bg-white hover:after:w-[100%]"
             >
               Contact
             </a>
             <a
               href=""
-              className="text-[20px] relative after:absolute after:content-[&rsquo;&rsquo;] after:bottom-[0] after:left-0 after:w-[0] after:h-[1px] after:duration-300 after:bg-white hover:after:w-[100%] "
-              className="text-[20px] relative after:absolute after:content-[&rsquo;] after:bottom-[0] after:left-0 after:w-[0] after:h-[1px] after:duration-300 after:bg-white hover:after:w-[100%] "
+              className="text-[20px] relative after:absolute after:bottom-[0] after:left-0 after:w-[0] after:h-[1px] after:duration-300 after:bg-white hover:after:w-[100%] after:content-[&apos;]"
             >
               Projects
             </a>
             <a
               href=""
-              className="text-[20px] relative after:absolute after:content-[&rsquo;] after:bottom-[0] after:left-0 after:w-[0] after:h-[1px] after:duration-300 after:bg-white hover:after:w-[100%]"
+              className="text-[20px] relative after:absolute after:content-[&apos;] after:bottom-[0] after:left-0 after:w-[0] after:h-[1px] after:duration-300 after:bg-white hover:after:w-[100%]"
             >
               About
             </a>
             <a
               href=""
-              className="text-[20px] relative after:absolute after:content-[&rsquo;] after:bottom-[0] after:left-0 after:w-[0] after:h-[1px] after:duration-300 after:bg-white hover:after:w-[100%]"
+              className="text-[20px] relative after:absolute after:content-[&apos;] after:bottom-[0] after:left-0 after:w-[0] after:h-[1px] after:duration-300 after:bg-white hover:after:w-[100%]"
             >
-=======
-            <a href="" className="text-[20px] mr-[5%] relative after:absolute after:content-[&apos;] after:bottom-[0] after:left-0 after:w-[0] after:h-[1px] after:duration-300 after:bg-white hover:after:w-[100%]">
-              Contact
-            </a>
-            <a href="" className="text-[20px] relative after:absolute after:content-[&apos;] after:bottom-[0] after:left-0 after:w-[0] after:h-[1px] after:duration-300 after:bg-white hover:after:w-[100%]">
-              Projects
-            </a>
-            <a href="" className="text-[20px] relative after:absolute after:content-[&apos;] after:bottom-[0] after:left-0 after:w-[0] after:h-[1px] after:duration-300 after:bg-white hover:after:w-[100%]">
-              About
-            </a>
-            <a href="" className="text-[20px] relative after:absolute after:content-[&apos;] after:bottom-[0] after:left-0 after:w-[0] after:h-[1px] after:duration-300 after:bg-white hover:after:w-[100%]">
->>>>>>> 2a70cecad697ea14a27e7699cc8df93e8a683d4c
               Certificate
             </a>
           </ul>
@@ -73,7 +59,7 @@ function Home() {
         <div className="mt-[8%] ml-[3%]">
           <h1 className="text-[40px] ml-[2%] w-[20%]">Hey</h1>
           <h1 className="text-[50px] ml-[2%] w-[21%] font-bold">
-            I&apos;m Ganbayr
+            I'm Ganbayr
           </h1>
           <h1 className="text-[40px] ml-[2%]">
             <spam className="text-red-600">IT</spam> Engineer

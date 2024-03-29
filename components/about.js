@@ -4,7 +4,7 @@ import pto from "../public/image/about.png";
 
 export default function about() {
   return (
-    <div className="bg-black w-full h-[90vh] flex justify-around items-center">
+    <div id="about" className="bg-black w-full h-[90vh] flex justify-around items-center">
       <div className="from-white w-[30%] h-[60vh] rounded-[20px]">
         <Image
           src={pto}

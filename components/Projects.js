@@ -7,7 +7,7 @@ import kosh2 from "../public/image/koshish3.png";
 
 export default function Projects() {
   return (
-    <div className="w-full h-[100vh]">
+    <div id="project" className="w-full h-[100vh]">
       <h1 className="text-[40px] ml-[5%]">Projects & Languages</h1>
       <hr className="w-[90%] ml-[5%]" />
       <div className="w-[80%] h-[80%] ml-[20%] mt-[3%] flex">

@@ -68,7 +68,10 @@ function Home() {
               and contribute to industry development.
             </p>
             <div className="flex w-[60%] mt-[2%] ml-[2%] gap-[10px]">
-              <button onClick="#header" className="bg-zinc-600 text-[15px] rounded-[20px] w-[30%] h-[35px]">
+              <button
+                onClick="#header"
+                className="bg-zinc-600 text-[15px] rounded-[20px] w-[30%] h-[35px]"
+              >
                 Next to
               </button>
               <button className="bg-zinc-600 text-[15px] rounded-[20px] w-[30%] h-[35px]">
@@ -91,9 +94,9 @@ function Home() {
           </div>
         </div>
       </div>
-      <button onClick="#header" className="fixed ml-[95%]">
+      <li href="#header" className="fixed ml-[95%]">
         <IoMdArrowRoundUp className="text-[50px]" />
-      </button>
+      </li>
     </>
   );
 }

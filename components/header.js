@@ -94,9 +94,9 @@ function Home() {
           </div>
         </div>
       </div>
-      <li href="#header" className="fixed ml-[95%]">
+      <a href="#header" className="fixed ml-[95%]">
         <IoMdArrowRoundUp className="text-[50px]" />
-      </li>
+      </a>
     </>
   );
 }

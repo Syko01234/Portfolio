@@ -7,11 +7,11 @@ import kosh2 from "../public/image/koshish3.png";
 
 export default function Projects() {
   return (
-    <div id="project" className="w-full h-[100vh]">
+    <div id="project" className="h-[850px]  w-[1500px] m-auto">
       <h1 className="text-[40px] ml-[5%]">Projects & Languages</h1>
       <hr className="w-[90%] ml-[5%]" />
       <div className="w-[80%] h-[80%] ml-[20%] mt-[3%] flex">
-        <div className="w-[15%] h-[30%] ml-[10%]">
+        <div className="w-[210px] h-[200px] ml-[10%] mt-[50px]">
           <Image
             src={kosh}
             alt="kosh"
@@ -40,7 +40,7 @@ export default function Projects() {
             }}
           />
         </div>
-        <div className="w-[35%] ml-[5%] h-[90%]">
+        <div className="w-[450px] ml-[5%] mt-[70px] h-[550px]">
           <Image
             src={pror}
             alt="pror"

@@ -4,7 +4,7 @@ import Con from "../public/image/cntct.png";
 
 export default function contact() {
   return (
-    <div id="contact" className="w-[100%] h-[85vh]">
+    <div id="contact" className="h-[600px]  w-[1500px] m-auto">
       <h1 className="text-[40px] ml-[5%]">Contact Me</h1>
       <hr className="w-[90%] ml-[5%]" />
       <div className="w-[100%] flex mt-[5%]">

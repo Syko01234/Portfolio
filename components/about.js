@@ -4,8 +4,8 @@ import pto from "../public/image/about.png";
 
 export default function about() {
   return (
-    <div id="about" className="bg-black w-full h-[90vh] flex justify-around items-center">
-      <div className="from-white w-[30%] h-[60vh] rounded-[20px]">
+    <div id="about" className="h-[800px]  w-[1500px] m-auto bg-black flex justify-around items-center">
+      <div className="from-white w-[30%] h-[400px] rounded-[20px]">
         <Image
           src={pto}
           alt="pto"

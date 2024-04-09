@@ -4,7 +4,7 @@ import dip from "../public/image/cert.png"
 
 export default function cert() {
   return (
-    <div id="cert" className="w-[100%] h-[90vh]">
+    <div id="cert" className="h-[550px]  w-[1500px] m-auto">
       <h1 className="text-[40px] ml-[5%]">Certifications</h1>
       <hr className="w-[90%] ml-[5%]"/>
       <div className="flex ml-[1%] mt-[5%]">

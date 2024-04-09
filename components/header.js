@@ -1,75 +1,32 @@
 import Image from "next/image";
 import Profile from "../public/image/prorrr.webp";
-import logo from "../public/image/logo_trial-removebg-preview.png";
+import Navbar from "./Navbar";
 import { IoMdArrowRoundUp } from "react-icons/io";
 
 function Home() {
   return (
     <>
-      <div id="header" className="w-full h-[90vh] bg-[#000] ">
-        <div className="w-[100%] h-[10vh] top-[0] items-center flex fixed border-b z-40 bg-black">
-          <Image
-            className="ml-[5%]"
-            src={logo}
-            alt="logo"
-            objectFit="contain"
-            style={{
-              width: "8%",
-              height: "90%",
-            }}
-          />
-          <nav className="flex flex-row-reverse ml-[55%] gap-[50px] list-none items-center">
-            <li className="mr-[5%]">
-              <a
-                href="#contact"
-                className="text-[20px] relative after:absolute after:content-['] after:bottom-[0] after:left-0 after:w-[0] after:h-[1px] after:duration-300 after:bg-white hover:after:w-[100%]"
-              >
-                Contact
-              </a>
-            </li>
-            <li>
-              <a
-                href="#cert"
-                className="text-[20px] relative after:absolute after:content-['] after:bottom-[0] after:left-0 after:w-[0] after:h-[1px] after:duration-300 after:bg-white hover:after:w-[100%]"
-              >
-                Certificate
-              </a>
-            </li>
-            <li>
-              <a
-                href="#project"
-                className="text-[20px] relative after:absolute after:content-['] after:bottom-[0] after:left-0 after:w-[0] after:h-[1px] after:duration-300 after:bg-white hover:after:w-[100%] "
-              >
-                Projects
-              </a>
-            </li>
-            <li>
-              <a
-                href="#about"
-                className="text-[20px] relative after:absolute after:content-['] after:bottom-[0] after:left-0 after:w-[0] after:h-[1px] after:duration-300 after:bg-white hover:after:w-[100%]"
-              >
-                About
-              </a>
-            </li>
-          </nav>
-        </div>
+      <div id="header" className="h-[700px]  w-[1500px] m-auto bg-[#000] ">
+        <Navbar />
         <div className="flex w-full max-xl:flex-col">
-          <div className="mt-[8%] ml-[3%]">
-            <h1 className="text-[40px] ml-[2%] w-[20%]">Hey</h1>
-            <h1 className="text-[50px] ml-[2%] w-[21%] font-bold">
+          <div className="mt-[70px] ml-[3%]">
+            <h1 className="text-[40px] ml-[2%] max-xl:ml-[0] max-xl:text-center max-xl:w-full w-[20%] max-xl:mt-[5%]">
+              Hey
+            </h1>
+            <h1 className="text-[50px] ml-[2%] w-[21%] max-xl:ml-[0] max-xl:text-center max-xl:w-full font-bold">
               I&apos;m Ganbayr
             </h1>
-            <h1 className="text-[40px] ml-[2%]">
+            <h1 className="text-[40px] ml-[2%] max-xl:ml-[0] max-xl:text-center max-xl:w-full">
               <spam className="text-red-600">IT</spam> Engineer
             </h1>
-            <p className="text-[30px] w-[800px] ml-[2%] font-thin">
+            <p className="text-[30px] w-[800px] ml-[2%] font-thin max-xl:ml-[0] max-xl:text-center max-xl:w-full max-xl:pl-[10%] max-xl:pr-[10%]">
               Highly motivated student studying software training. Actively seek
               opportunities to apply your skills and knowledge to real projects
               and contribute to industry development.
             </p>
-            <div className="flex w-[60%] mt-[2%] ml-[2%] gap-[10px]">
+            <div className="flex w-[60%] mt-[2%] ml-[2%] gap-[10px] max-xl:justify-center max-xl:w-full">
               <button
-                onClick="#header"
+                href="#about"
                 className="bg-zinc-600 text-[15px] rounded-[20px] w-[30%] h-[35px]"
               >
                 Next to
@@ -80,7 +37,7 @@ function Home() {
             </div>
           </div>
 
-          <div className="w-[430px] h-[60vh] bg-white rounded-[50%] ml-[100px] mt-[180px]">
+          <div className="w-[430px] h-[430px] bg-white opacity-0 rounded-[50%]  xl:opacity-100 ml-[100px] mt-[130px] ">
             <Image
               src={Profile}
               alt="pro"
@@ -94,7 +51,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <a href="#header" className="fixed ml-[95%]">
+      <a href="#header" className="fixed bottom-8 right-8">
         <IoMdArrowRoundUp className="text-[50px]" />
       </a>
     </>
